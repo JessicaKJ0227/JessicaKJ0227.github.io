@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jess-ShopLab</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container my-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1400/200/?random=10">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1400/200/?random=20">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1400/200/?random=30">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container product-block my-5">
+        <h2>最新商品區</h2>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card rounded-3 h-100">
+                    <img src="./images/brooke-lark-V4MBq8kue3U-unsplash.jpg" class="h-100" alt="">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                        <div class="card-title text-black bg-white p-2 rounded opacity-75">
+                            <h3>商品001</h3>
+                            <p>各位有一定，當地哈哈發佈日期，搜尋當地。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="row g-2">
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3">
+                            <img src="./images/aliet-kitchen-JBIK4QZOFfc-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品002</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/aliona-gumeniuk-GAauSStia3s-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品003</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/cristina-matos-albers-Ltv7a5m8i4c-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品004</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/fidel-fernando-BSG5ZLVh8S4-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品005</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/gaby-dyson-QX814A1w3j4-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品006</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/pushpak-dsilva-2UeBOL7UD34-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品007</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/mae-mu-kID9sxbJ3BQ-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品008</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card rounded-3 h-100">
+                            <img class="h-100" src="./images/kobby-mendez-idTwDKt2j2o-unsplash.jpg" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h5 class="card-title text-black bg-white p-2 rounded opacity-75"><b>商品009</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container news-block my-5">
+        <h2>最新消息</h2>
+        <div class="row">
+          <!-- 一列三欄 -->
+          <div class="col-12 col-md-4">
+            <!-- 卡片內部排列組合 -->
+            <div class="card mb-3 rounded-3">
+              <!-- 卡片間隔 -->
+              <div class="row g-0">
+                <!-- 色塊大小 -->
+                <div class="col-md-1 bg-dark">
+                </div>
+                <!-- 文字區塊大小 -->
+                <div class="col-md-11">
+                  <div class="card-body">
+                    <h5 class="card-title">自然大門打電話一身採訪傳輸，失望編輯，主任並。</h5>
+                    <p class="card-text">並且中港路關於擔心，離開信箱發佈時間觀點英文，移動患者充分醫療郵箱不但地球直到交通開發者大會，水果比賽無數思維女性欣賞。</p>
+                    <p class="card-text"><small class="text-muted">2022.Jan.16.</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mb-3 rounded-3">
+              <div class="row g-0">
+                <div class="col-md-1 bg-dark">
+                </div>
+                <div class="col-md-11">
+                  <div class="card-body">
+                    <h5 class="card-title">抽菸區說道陷入驅動誘惑有點遠培養激動小區後面女人，加入時間。</h5>
+                    <p class="card-text">犯罪導航出版沉默學者求助無疑比賽遭遇可見通過甚至實驗，為主錯誤地理哈哈攻擊未來行情他也本報還會是有搭配拿出，求職停止查詢會有章節本網那個，證券所在地新聞設計欄目聊天參與高度，立即原則尋求此刻還是很少紀念網易無限關鍵測試同時當你型號，夢想以外，充分廣播，所。</p>
+                    <p class="card-text"><small class="text-muted">2021.Dec.26.</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mb-3 rounded-3">
+              <div class="row g-0">
+                <div class="col-md-1 bg-dark">
+                </div>
+                <div class="col-md-11">
+                  <div class="card-body">
+                    <h5 class="card-title">推薦使用最好學校材料其他出台完全，一路經過一年唯一和我夫人在這我和改。</h5>
+                    <p class="card-text">眼前產生斗內緩緩專業，離開第三告訴傷心上升操作系統年輕人臉上習慣，小時工業放在速度能夠加盟自行有機會回家承擔他也，告訴我一切都轉換領域我來實際上，返回面向軍事立刻指導詳細使得按照說是英國，降價女朋友現象都有也就是無法臨時眼神設置攻擊制定，一會明確工商，立。</p>
+                    <p class="card-text"><small class="text-muted">2022.Mar.01.</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+    
+      </div></section>
+
+    <footer class="bg-light">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-6 col-md-3">
+                    <h5>Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h5>Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h5>Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h5>Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
